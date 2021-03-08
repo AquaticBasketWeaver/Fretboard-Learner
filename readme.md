@@ -14,4 +14,4 @@ The typical usage is:
 Although this is the typical usage, this program is pretty general and can be really used for any sort of excercise that you can think of. 
 
 # Future #
-At the moment this program is *extremely* rudementary, and was mostly born out of the fact that I didn't feel like making paper cue cards to practice notes on my guitar fretboard. 
+At the moment this program is *extremely* rudementary, and was mostly born out of the fact that I didn't feel like making paper cue cards to practice notes on my guitar fretboard. I'll probably revisit this and add more to it in the future.
