@@ -23,15 +23,15 @@ def main():
         response = input()
         end = time.time()
         if response == "c":
-            correctTime = end - start
+            correctTime = correctTime + (end - start)
             correct = correct + 1
-        else:
-            wrongTime = end - start
+        elif response == "w":
+            wrongTime = wrongTime + (end - start)
             wrong = wrong + 1
         print("----------------------------------")
     print("Final result: ")
-    print("Correct: " + str(correct) + ", avg response time: " + str(round(correctTime / correct, 5)) + " s")
-    print("Wrong: " + str(wrong) + ", avg response time: " + str(round(wrongTime / wrong, 5)) + " s")
+    print("Correct: " + str(correct) + ", avg response time: " + str(round(correctTime / correct, 5) if correct else 0) + " s")
+    print("Wrong: " + str(wrong) + ", avg response time: " + str(round(wrongTime / wrong, 5) if wrong else 0) + " s")
 
 
 if __name__ == "__main__":
