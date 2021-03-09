@@ -32,6 +32,7 @@ def main():
     print("Final result: ")
     print("Correct: " + str(correct) + ", avg response time: " + str(round(correctTime / correct, 5) if correct else 0) + " s")
     print("Wrong: " + str(wrong) + ", avg response time: " + str(round(wrongTime / wrong, 5) if wrong else 0) + " s")
+    response = input("Press any key to close")
 
 
 if __name__ == "__main__":
